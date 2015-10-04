@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45284B0516768146001B428C /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45284B0416768146001B428C /* FavouritesViewController.m */; };
+		45284B0C1676915E001B428C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45284B0B1676915E001B428C /* CoreLocation.framework */; };
+		45284B0F16769173001B428C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45284B0E16769173001B428C /* MapKit.framework */; };
+		45284B12167692D3001B428C /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45284B11167692D3001B428C /* LocationViewController.m */; };
+		45284B1416769F61001B428C /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 45284B1316769F61001B428C /* compass.png */; };
+		459ED0A51668ED1500FF3127 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459ED0A41668ED1500FF3127 /* DetailViewController.m */; };
+		45A3CB6B16729B640008478D /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A3CB6A16729B640008478D /* Star.png */; };
+		45A607361666B2C40059CC52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A607351666B2C40059CC52 /* UIKit.framework */; };
+		45A607381666B2C40059CC52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A607371666B2C40059CC52 /* Foundation.framework */; };
+		45A6073A1666B2C40059CC52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A607391666B2C40059CC52 /* CoreGraphics.framework */; };
+		45A607401666B2C40059CC52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A6073E1666B2C40059CC52 /* InfoPlist.strings */; };
+		45A607421666B2C40059CC52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A607411666B2C40059CC52 /* main.m */; };
+		45A607461666B2C40059CC52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A607451666B2C40059CC52 /* AppDelegate.m */; };
+		45A607481666B2C40059CC52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A607471666B2C40059CC52 /* Default.png */; };
+		45A6074A1666B2C40059CC52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A607491666B2C40059CC52 /* Default@2x.png */; };
+		45A6074C1666B2C40059CC52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A6074B1666B2C40059CC52 /* Default-568h@2x.png */; };
+		45A6074F1666B2C40059CC52 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A6074D1666B2C40059CC52 /* MainStoryboard.storyboard */; };
+		45A6075A1666B33E0059CC52 /* TideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A607591666B33E0059CC52 /* TideViewController.m */; };
+		45A742F41677A424007CB31A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A742F31677A424007CB31A /* Social.framework */; };
+		45A742F91677AF5F007CB31A /* socialLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A742F81677AF5F007CB31A /* socialLogo.png */; };
+		45A742FB1677B46A007CB31A /* Waves.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A742FA1677B46A007CB31A /* Waves.png */; };
+		45A742FE1677B4DF007CB31A /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A742FD1677B4DE007CB31A /* SocialViewController.m */; };
+		45A743031677CED0007CB31A /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A743021677CED0007CB31A /* facebook.png */; };
+		45A743051677CED8007CB31A /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45A743041677CED8007CB31A /* twitter.jpg */; };
+		45A7430F16780593007CB31A /* app icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A7430E16780593007CB31A /* app icon.png */; };
+		45A74312167809BF007CB31A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A74311167809BF007CB31A /* Default.png */; };
+		45ACA3A51667E1D900DDE228 /* wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ACA3A41667E1D900DDE228 /* wave.png */; };
+		45ACA3A81667E2E900DDE228 /* wave2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ACA3A71667E2E900DDE228 /* wave2.png */; };
+		45ACA3AA1667E39F00DDE228 /* wave3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ACA3A91667E39F00DDE228 /* wave3.png */; };
+		45ACA3AF1667F3B000DDE228 /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ACA3AE1667F3B000DDE228 /* weather.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45284B0316768146001B428C /* FavouritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavouritesViewController.h; path = ../FavouritesViewController.h; sourceTree = "<group>"; };
+		45284B0416768146001B428C /* FavouritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavouritesViewController.m; path = ../FavouritesViewController.m; sourceTree = "<group>"; };
+		45284B0B1676915E001B428C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		45284B0E16769173001B428C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		45284B10167692D3001B428C /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = ../LocationViewController.h; sourceTree = "<group>"; };
+		45284B11167692D3001B428C /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = ../LocationViewController.m; sourceTree = "<group>"; };
+		45284B1316769F61001B428C /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		459ED0A31668ED1500FF3127 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		459ED0A41668ED1500FF3127 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		45A3CB6A16729B640008478D /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
+		45A607311666B2C40059CC52 /* iTides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A607351666B2C40059CC52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45A607371666B2C40059CC52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45A607391666B2C40059CC52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45A6073D1666B2C40059CC52 /* iTides-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTides-Info.plist"; sourceTree = "<group>"; };
+		45A6073F1666B2C40059CC52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45A607411666B2C40059CC52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45A607431666B2C40059CC52 /* iTides-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTides-Prefix.pch"; sourceTree = "<group>"; };
+		45A607441666B2C40059CC52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45A607451666B2C40059CC52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45A607471666B2C40059CC52 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		45A607491666B2C40059CC52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		45A6074B1666B2C40059CC52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		45A6074E1666B2C40059CC52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		45A607581666B33E0059CC52 /* TideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TideViewController.h; sourceTree = "<group>"; };
+		45A607591666B33E0059CC52 /* TideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TideViewController.m; sourceTree = "<group>"; };
+		45A742F31677A424007CB31A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		45A742F81677AF5F007CB31A /* socialLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialLogo.png; sourceTree = "<group>"; };
+		45A742FA1677B46A007CB31A /* Waves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Waves.png; sourceTree = "<group>"; };
+		45A742FC1677B4DE007CB31A /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		45A742FD1677B4DE007CB31A /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
+		45A743021677CED0007CB31A /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		45A743041677CED8007CB31A /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpg; sourceTree = "<group>"; };
+		45A7430E16780593007CB31A /* app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app icon.png"; path = "../app icon.png"; sourceTree = "<group>"; };
+		45A74311167809BF007CB31A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		45ACA3A41667E1D900DDE228 /* wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave.png; sourceTree = "<group>"; };
+		45ACA3A71667E2E900DDE228 /* wave2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave2.png; sourceTree = "<group>"; };
+		45ACA3A91667E39F00DDE228 /* wave3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave3.png; sourceTree = "<group>"; };
+		45ACA3AE1667F3B000DDE228 /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A6072E1666B2C40059CC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A742F41677A424007CB31A /* Social.framework in Frameworks */,
+				45284B0F16769173001B428C /* MapKit.framework in Frameworks */,
+				45284B0C1676915E001B428C /* CoreLocation.framework in Frameworks */,
+				45A607361666B2C40059CC52 /* UIKit.framework in Frameworks */,
+				45A607381666B2C40059CC52 /* Foundation.framework in Frameworks */,
+				45A6073A1666B2C40059CC52 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A607261666B2C40059CC52 = {
+			isa = PBXGroup;
+			children = (
+				45A6073B1666B2C40059CC52 /* Tides */,
+				45A607341666B2C40059CC52 /* Frameworks */,
+				45A607321666B2C40059CC52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45A607321666B2C40059CC52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A607311666B2C40059CC52 /* iTides.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A607341666B2C40059CC52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A742F31677A424007CB31A /* Social.framework */,
+				45284B0B1676915E001B428C /* CoreLocation.framework */,
+				45284B0E16769173001B428C /* MapKit.framework */,
+				45A607351666B2C40059CC52 /* UIKit.framework */,
+				45A607371666B2C40059CC52 /* Foundation.framework */,
+				45A607391666B2C40059CC52 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45A6073B1666B2C40059CC52 /* Tides */ = {
+			isa = PBXGroup;
+			children = (
+				45A607441666B2C40059CC52 /* AppDelegate.h */,
+				45A607451666B2C40059CC52 /* AppDelegate.m */,
+				45284B0416768146001B428C /* FavouritesViewController.m */,
+				45284B0316768146001B428C /* FavouritesViewController.h */,
+				45284B11167692D3001B428C /* LocationViewController.m */,
+				45284B10167692D3001B428C /* LocationViewController.h */,
+				45A742FC1677B4DE007CB31A /* SocialViewController.h */,
+				45A742FD1677B4DE007CB31A /* SocialViewController.m */,
+				45A607581666B33E0059CC52 /* TideViewController.h */,
+				45A607591666B33E0059CC52 /* TideViewController.m */,
+				459ED0A31668ED1500FF3127 /* DetailViewController.h */,
+				459ED0A41668ED1500FF3127 /* DetailViewController.m */,
+				45A742FF1677B51D007CB31A /* Storyboard */,
+				45ACA3AB1667E3E500DDE228 /* images */,
+				45A6073C1666B2C40059CC52 /* Supporting Files */,
+			);
+			path = Tides;
+			sourceTree = "<group>";
+		};
+		45A6073C1666B2C40059CC52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A6073D1666B2C40059CC52 /* iTides-Info.plist */,
+				45A6073E1666B2C40059CC52 /* InfoPlist.strings */,
+				45A607411666B2C40059CC52 /* main.m */,
+				45A607431666B2C40059CC52 /* iTides-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A742FF1677B51D007CB31A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				45A6074D1666B2C40059CC52 /* MainStoryboard.storyboard */,
+			);
+			name = Storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		45ACA3AB1667E3E500DDE228 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				45A7430E16780593007CB31A /* app icon.png */,
+				45A74311167809BF007CB31A /* Default.png */,
+				45A743041677CED8007CB31A /* twitter.jpg */,
+				45A743021677CED0007CB31A /* facebook.png */,
+				45A742FA1677B46A007CB31A /* Waves.png */,
+				45A742F81677AF5F007CB31A /* socialLogo.png */,
+				45284B1316769F61001B428C /* compass.png */,
+				45A3CB6A16729B640008478D /* Star.png */,
+				45ACA3AE1667F3B000DDE228 /* weather.png */,
+				45A607471666B2C40059CC52 /* Default.png */,
+				45A607491666B2C40059CC52 /* Default@2x.png */,
+				45A6074B1666B2C40059CC52 /* Default-568h@2x.png */,
+				45ACA3A91667E39F00DDE228 /* wave3.png */,
+				45ACA3A71667E2E900DDE228 /* wave2.png */,
+				45ACA3A41667E1D900DDE228 /* wave.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A607301666B2C40059CC52 /* iTides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A607551666B2C40059CC52 /* Build configuration list for PBXNativeTarget "iTides" */;
+			buildPhases = (
+				45A6072D1666B2C40059CC52 /* Sources */,
+				45A6072E1666B2C40059CC52 /* Frameworks */,
+				45A6072F1666B2C40059CC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTides;
+			productName = Tides;
+			productReference = 45A607311666B2C40059CC52 /* iTides.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A607281666B2C40059CC52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Fitzy;
+			};
+			buildConfigurationList = 45A6072B1666B2C40059CC52 /* Build configuration list for PBXProject "iTides" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45A607261666B2C40059CC52;
+			productRefGroup = 45A607321666B2C40059CC52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A607301666B2C40059CC52 /* iTides */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A6072F1666B2C40059CC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A607401666B2C40059CC52 /* InfoPlist.strings in Resources */,
+				45A607481666B2C40059CC52 /* Default.png in Resources */,
+				45A6074A1666B2C40059CC52 /* Default@2x.png in Resources */,
+				45A6074C1666B2C40059CC52 /* Default-568h@2x.png in Resources */,
+				45A6074F1666B2C40059CC52 /* MainStoryboard.storyboard in Resources */,
+				45ACA3A51667E1D900DDE228 /* wave.png in Resources */,
+				45ACA3A81667E2E900DDE228 /* wave2.png in Resources */,
+				45ACA3AA1667E39F00DDE228 /* wave3.png in Resources */,
+				45ACA3AF1667F3B000DDE228 /* weather.png in Resources */,
+				45A3CB6B16729B640008478D /* Star.png in Resources */,
+				45284B1416769F61001B428C /* compass.png in Resources */,
+				45A742F91677AF5F007CB31A /* socialLogo.png in Resources */,
+				45A742FB1677B46A007CB31A /* Waves.png in Resources */,
+				45A743031677CED0007CB31A /* facebook.png in Resources */,
+				45A743051677CED8007CB31A /* twitter.jpg in Resources */,
+				45A7430F16780593007CB31A /* app icon.png in Resources */,
+				45A74312167809BF007CB31A /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A6072D1666B2C40059CC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A607421666B2C40059CC52 /* main.m in Sources */,
+				45A607461666B2C40059CC52 /* AppDelegate.m in Sources */,
+				45A6075A1666B33E0059CC52 /* TideViewController.m in Sources */,
+				459ED0A51668ED1500FF3127 /* DetailViewController.m in Sources */,
+				45284B0516768146001B428C /* FavouritesViewController.m in Sources */,
+				45284B12167692D3001B428C /* LocationViewController.m in Sources */,
+				45A742FE1677B4DF007CB31A /* SocialViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45A6073E1666B2C40059CC52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A6073F1666B2C40059CC52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45A6074D1666B2C40059CC52 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A6074E1666B2C40059CC52 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = Tides;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A607531666B2C40059CC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45A607541666B2C40059CC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45A607561666B2C40059CC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tides/iTides-Prefix.pch";
+				INFOPLIST_FILE = "Tides/iTides-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = iTides;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45A607571666B2C40059CC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tides/iTides-Prefix.pch";
+				INFOPLIST_FILE = "Tides/iTides-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = iTides;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A6072B1666B2C40059CC52 /* Build configuration list for PBXProject "iTides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A607531666B2C40059CC52 /* Debug */,
+				45A607541666B2C40059CC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A607551666B2C40059CC52 /* Build configuration list for PBXNativeTarget "iTides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A607561666B2C40059CC52 /* Debug */,
+				45A607571666B2C40059CC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45A607281666B2C40059CC52 /* Project object */;
+}
